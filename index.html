@@ -20,7 +20,7 @@
             <div class="flex items-center justify-between h-20">
                 <!-- Logo and Title -->
                 <div class="flex items-center gap-3">
-                    <img src="assets/logo-dark.png" alt="Bangladesh Emblem" class="h-12 w-12"/>
+                    <img src="assets/logo.png" alt="Bangladesh Emblem" class="h-12 w-12"/>
                     <div class="font-bold text-xl text-[#00522E]">
                         <h2>Emergency</h2>
                         <h2>Service</h2>
@@ -47,3 +47,43 @@
             </div>
         </nav>
     </header>
+
+   <!-- Hero Section -->
+    <section class="bg-[linear-gradient(to_right,#013223_0%,#006747_50%,#013223_100%)] text-white py-20 text-center">
+        <div class="container mx-auto px-4 flex flex-col items-center gap-6">
+            <img src="assets/logo-dark.png" alt="Bangladesh Government Logo" class="h-24 w-24 mb-4">
+            <h1 class="text-4xl font-bold">Emergency Service Directory</h1>
+            <p class="text-lg font-semibold text-gray-200 max-w-3xl">
+                Government Emergency Services at Your Fingertip – A Project by: Government of the People's Republic of Bangladesh
+            </p>
+        </div>
+    </section>
+
+       <!-- Main Content -->
+    <main class="container mx-auto p-4 sm:p-6 lg:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Services Grid -->
+            <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                <!-- Card 1: National Emergency -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 transition-all duration-200 hover:shadow-md flex flex-col">
+                    <div class="flex justify-between items-start mb-3">
+                        <div class="bg-red-100 p-2 rounded-lg"><img src="assets/emergency.png" alt="National Emergency" class="h-6 w-6"></div>
+                        <button class="text-gray-300 hover:text-red-500 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg></button>
+                    </div>
+                    <div class="mb-2">
+                        <h3 class="text-base font-semibold text-gray-800">National Emergency Number</h3>
+                        <p class="text-xs text-gray-500">National Emergency</p>
+                    </div>
+                    <div class="mb-4 mt-auto">
+                        <p class="text-3xl font-bold text-gray-900">999</p>
+                        <span class="bg-gray-100 text-gray-600 text-xs font-medium px-2 py-1 rounded-full">All</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="flex-1 btn btn-outline border-gray-300 hover:text-black hover:bg-gray-100 text-gray-700 font-medium text-sm px-3 py-2 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>Copy
+                        </button>
+                        <button class="flex-1 btn bg-[#059669] hover:bg-[#047857] text-white font-medium text-sm px-3 py-2 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>Call
+                        </button>
+                    </div>
+                </div>
