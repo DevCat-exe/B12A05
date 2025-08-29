@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#F0FFF4]">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo and Title -->
+                <div class="flex items-center gap-3">
+                    <img src="assets/logo-dark.png" alt="Bangladesh Emblem" class="h-12 w-12"/>
+                    <div class="font-bold text-xl text-[#00522E]">
+                        <h2>Emergency</h2>
+                        <h2>Service</h2>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="flex items-center gap-2 md:gap-4">
+                    <!-- Heart Count -->
+                    <div class="flex items-center gap-2 bg-[#F0FFF4] rounded-full px-4 py-2 font-semibold text-gray-800">
+                        <span id="heart-count" class="text-lg">0</span>
+                        <img src="assets/heart.png" alt="Heart icon" class="h-6 w-6">
+                    </div>
+                    <!-- Coin Count -->
+                    <div class="flex items-center gap-2 bg-[#F0FFF4] rounded-full px-4 py-2 font-semibold text-gray-800">
+                        <span id="coin-count" class="text-lg">100</span>
+                        <img src="assets/coin.png" alt="Coin icon" class="h-6 w-6">
+                    </div>
+                    <!-- Copy Count -->
+                    <div class="flex items-center bg-[#059669] text-white rounded-full px-5 py-2 font-bold text-lg">
+                        <span id="copy-count">0 Copy</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
